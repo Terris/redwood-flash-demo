@@ -1,6 +1,8 @@
-import { useMutation, useFlash } from '@redwoodjs/web'
+import { useMutation } from '@redwoodjs/web'
 import { navigate, routes } from '@redwoodjs/router'
 import UserForm from 'src/components/UserForm'
+
+import { useFlash } from 'src/components/flash'
 
 const CREATE_USER_MUTATION = gql`
   mutation CreateUserMutation($input: CreateUserInput!) {

@@ -1,10 +1,11 @@
 import { Link, routes } from '@redwoodjs/router'
-import { Flash } from '@redwoodjs/web'
+
+import { Flash } from 'src/components/flash'
 
 const UsersLayout = (props) => {
   return (
     <div className="rw-scaffold">
-      <Flash />
+      <Flash timeout={3000} />
       <header className="rw-header">
         <h1 className="rw-heading rw-heading-primary">
           <Link to={routes.users()} className="rw-link">
