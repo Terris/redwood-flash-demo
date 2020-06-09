@@ -317,10 +317,14 @@
 }
 
 .rw-flash-message .rw-flash-message-dismiss:hover {
-  color: #718096
+  opacity: 0.7
 }
 
 .rw-flash-message.rw-flash-success {
   background: #48bb78;
+  color: #fff;
+}
+.rw-flash-message.rw-flash-error {
+  background: #e53e3e;
   color: #fff;
 }
