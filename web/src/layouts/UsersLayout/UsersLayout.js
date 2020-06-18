@@ -1,6 +1,5 @@
 import { Link, routes } from '@redwoodjs/router'
-
-import { Flash } from 'src/components/flash'
+import { Flash } from '@redwoodjs/web'
 
 const UsersLayout = (props) => {
   return (
